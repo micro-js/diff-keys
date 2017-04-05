@@ -2,7 +2,7 @@
   "name": "@f/diff-keys",
   "description": "Take two objects and find out which keys are different",
   "repository": "git://github.com/micro-js/diff-keys.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
