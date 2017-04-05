@@ -11,5 +11,7 @@ var test = require('tape')
 
 test('should work', function (t) {
   t.deepEqual(diffKeys({a: 1, b: 2, c: 3}, {a: 1, b: 3, c: 4}), ['b', 'c'])
+  t.deepEqual(diffKeys({a: 1, b: 2, c: 3}, {a: 1, b: 2, c: 3}), [])
+
   t.end()
 })
